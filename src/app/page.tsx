@@ -2,6 +2,7 @@
 import { Heading, Box, Input, Button, Stack } from "@chakra-ui/react";
 import { useState } from "react";
 import Header from "./component/Header";
+import { PageTable } from "./component/PageTables";
 
 export default function Home() {
   const [longLink, setLongLink] = useState("");
@@ -11,12 +12,13 @@ export default function Home() {
   return (
     <Stack>
       <Header/>
+      <PageTable/>
 
 
 
 
 
-      
+
       {/* <Heading color="blue">Hello</Heading>
       <Box>
         {" "}
