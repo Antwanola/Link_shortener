@@ -2,6 +2,7 @@
 import { Heading, Box, Input, Button, Stack } from "@chakra-ui/react";
 import { useState } from "react";
 import Header from "./component/Header";
+import { Tabb } from "./component/Tabs";
 
 export default function Home() {
   const [longLink, setLongLink] = useState("");
@@ -11,12 +12,13 @@ export default function Home() {
   return (
     <Stack>
       <Header/>
+      <Tabb/>
 
 
 
 
 
-      
+
       {/* <Heading color="blue">Hello</Heading>
       <Box>
         {" "}

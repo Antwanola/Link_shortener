@@ -51,7 +51,7 @@ export const LinkBox: React.FC<LinkBoxProps> = () => {
               display={display}
               placeholder="paste your link here"
               width={400}
-              fontSize={10}
+              fontSize={14}
               borderWidth={0}
               focusBorderColor="transparent"
             />
