@@ -1,5 +1,5 @@
 import { extendTheme } from "@chakra-ui/react";
-import { switchTheme } from './themeUtil';
+import { switchTheme } from './SwitchTheme';
 
 const theme = extendTheme({
   styles: {
